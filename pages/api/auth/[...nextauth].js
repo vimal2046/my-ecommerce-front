@@ -7,7 +7,7 @@ import clientPromise from '@/lib/mongodb';
 
 
  export const  authOptions = {
-  
+       secret: process.env.SECRET,
     providers: [
       
       GoogleProvider({
